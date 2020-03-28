@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>StartPage</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        /* The hero image */
+
+        .hero-image {
+            /* The image used */
+            background-image: url(img/startpage.jpg);
+            opacity: 0.6;
+            /* Set a specific height */
+            height: 100%;
+
+            /* Position and center the image to scale nicely on all screens */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        /* Place text in the middle of the image */
+
+        .hero-text {
+            text-align: center;
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+        }
+
+        #button {
+            padding: 20px 50px;
+            background-color: rgb(101, 167, 203);
+            border: none;
+            border-radius: 5px;
+        }
+
+        #button:hover {
+            padding: 30px 50px;
+            font-size: 20px;
+            color: white;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="hero-image">
+    </div>
+    <div class="hero-text">
+        <h1>BERSELF</h1>
+        <p>Better Self</p>
+        <a href="../Homepage/index.html"><button id="button">START</button></a>
+    </div>
+
+</body>
+
+</html>

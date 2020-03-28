@@ -1,0 +1,150 @@
+body, html {
+    height: 100%;
+}    
+.topic h1{
+    font-size: 50px;
+    text-align:center;
+}
+.title-top{
+    margin-left: 500px;
+    color: rgba(253, 173, 64, 0.94);
+    width: 300px;
+    height: auto;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgba(255, 186, 92, 0.94);
+    display: block;
+}
+.introduce{
+    height:auto;
+    background-color:rgba(255, 246, 241, 0.49);
+    font-size:15px;
+    text-align:center;
+}
+.introduce img{
+    height:200px;
+    margin: 20px 10px;
+}
+.right{
+    display: block;
+}
+.left{
+    display: block;
+    float: left;
+    margin: 0px 0px 0px 200px;
+}
+.LOVFEE { 
+            
+    /* The image used */
+    background-image: url("img/L-b.jpg");
+
+    /* Full height */
+    height: 500px; 
+    opacity: 0.8;
+    /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.EYESCREAM{
+    /* The image used */
+     background-image: url("img/E-b.jpg");
+
+    /* Full height */
+    height: 500px; 
+    opacity: 0.9;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Wstyle{
+    /* The image used */
+    background-image: url("img/w-b.jpg");
+
+    /* Full height */
+    height: 500px; 
+    opacity: 0.9;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PAZZO{
+    /* The image used */
+    background-image: url("img/P-b.jpg");
+
+    /* Full height */
+    height: 500px; 
+    opacity: 0.9;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SHEIN{
+    /* The image used */
+    background-image: url("img/S-b.jpg");
+
+    /* Full height */
+    height: 500px; 
+    opacity: 0.9;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MERCCI22{
+    /* The image used */
+    background-image: url("img/M-b.jpg");
+
+    /* Full height */
+    height: 500px; 
+    opacity: 0.9;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 a{
+    text-decoration: none;
+    color: rgba(253, 173, 64, 0.94);
+}
+.left h2 p{
+    font-family:fantasy;
+}
+.icon-bar img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+h1 a{
+    text-decoration: none;
+    color: rgba(253, 173, 64, 0.94);
+}
+.icon-bar {
+    width: 35px;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+    top: 150px;
+    right: 30px
+    }
+.icon-bar a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: rgba(200, 228, 255, 0.73);
+    border-radius: 50%;
+    margin: 10px 5px 10px 5px;
+    padding:5px 5px 5px 5px ;
+    }
+.icon-bar a:hover {
+    background-color: rgba(107, 182, 255, 0.86);
+}
